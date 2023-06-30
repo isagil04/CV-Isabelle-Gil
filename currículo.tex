@@ -1,0 +1,186 @@
+\documentclass[11pt]{spidercv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[document]{ragged2e}
+
+\begin{document}
+
+    %----------------------------------------------------------------------------------------
+    %	TOP BAR
+    %----------------------------------------------------------------------------------------
+    \begin{TopBar}{\ColorTextSide}
+    \vspace*{0.5cm}
+        \Name{\ColorHighlight}{\color{Mahogany}Isabelle Batista Gil}{}{}
+    
+
+        %%subtítulo
+        \large{\textbf{Astrônoma em formação}}
+        
+
+        \vspace*{0.5cm}
+    
+        
+
+        %%% Contact
+        \TextSeparator{\ColorHighlight}{Contato}
+        \begin{DoubleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [\color{Mahogany}\Large\faAt] \href{mailto:isabellegil04@gmail.com}{isabellegil04@gmail.com}
+                \item [\color{Mahogany}\Large\faMobile] +55 (11) 94072-1080
+                \item [\color{Mahogany}\Large\faMapMarker] Rio de Janeiro, RJ
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [\color{Mahogany}\Large\faGithub] \href{https://github.com/isagil04}{isagil04}
+                \item [\color{Mahogany}\Large\faUser] \href{https://lattes.cnpq.br/2286179596994894}{Currículo Lattes}
+            \end{ItemList}
+        \end{DoubleColumns}
+
+
+    
+    \end{TopBar}
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	SIDE BAR
+    %----------------------------------------------------------------------------------------
+    \begin{SideBar}{\ColorBackground}{\ColorTextSide}
+        
+        %%% Soft skills
+        \TextSeparatorBis{\ColorHighlight}{\faLightbulbO }{Interesses e Hobbies}
+        
+        \Label{\ColorHighlight}{Piano}
+        \Label{\ColorHighlight}{Viagens}
+        \Label{\ColorHighlight}{Moda}
+        \Label{\ColorHighlight}{Computação}
+        \Label{\ColorHighlight}{Arco e flecha}
+        \Label{\ColorHighlight}{Astronomia e Astrofísica}
+        
+        \vspace*{1cm}
+
+        %%% Hard skills
+        \TextSeparatorBis{\ColorHighlight}{\faGears}{Habilidades}
+        \begin{ItemList}{\ColorHighlight}
+            \item [\faCode] Python
+            \item [\faFileCodeO]  Latex
+            \item [\faVideoCamera]  Edição e gravação de vídeo
+            \item [\faCubes]  Organização
+            \item [\faUsers]  Trabalho em equipe
+        \end{ItemList}
+
+        \vspace*{1cm}
+
+        %%% Spider
+        \TextSeparatorBis{\ColorHighlight}{\faHome}{Meu dia a dia}
+
+        \begin{SpiderDiagram}{\ColorTextSide}{\ColorHighlight}
+            \addSkill{\textbf{Estudos}}{4}
+            \addSkill{\textbf{Descanso}}{4}
+            \addSkill{\textbf{Tarefas}}{2}
+            \addSkill{\textbf{Atividades Extracurriculares}}{3}
+            \addSkill{\textbf{Diversão}}{3}
+        
+
+        \end{SpiderDiagram}
+
+        \vspace*{1cm}
+
+        %%% Languages
+        \TextSeparatorBis{\ColorHighlight}{\faLanguage}{Idiomas}
+
+        \begin{SkillGauges}{\ColorHighlight}
+            \addGauge{Português}{5}
+            \addGauge{Inglês}{4}
+            \addGauge{Espanhol}{1}
+        \end{SkillGauges}
+    \end{SideBar}
+
+    
+
+    %----------------------------------------------------------------------------------------
+    %	Picture
+    %----------------------------------------------------------------------------------------
+    \DefineProfile{\ColorOther}{\ColorTextSide}{3.png}
+
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	Main
+    %----------------------------------------------------------------------------------------
+    \begin{MainPart}
+
+%%% Education
+    \MainTitleBis{\color{lightgray}\ColorHighlight}{\ColorTextMain}{Formação}{\faGraduationCap}
+    \Experience
+        {\ColorHighlight}
+		{Bacharelado em Astronomia}
+		{Universidade Federal do Rio de Janeiro (UFRJ)}
+        {2022-\faUndo}
+        {   
+            Rio de Janeiro, RJ\\
+        
+        }
+   
+    \Experience
+        {\ColorHighlight}
+		{Ensino Médio}
+		{Colégio Olivetano}
+        {2019-2021}
+        {   
+            São Paulo, SP\\
+
+        }
+
+    \Experience
+        {\ColorHighlight}
+		{Curso de Língua Inglesa}
+		{Wise Up}
+        {2016-2019}
+        {   
+            São Paulo, SP\\
+        }
+        \vspace*{0.7cm}
+
+    %%% Experiences 
+    \MainTitleBis{\color{lightgray}\ColorHighlight}{\ColorTextMain}{Experiências}{\faRocket}
+    \Experience
+        {\ColorHighlight}
+		{Iniciação Científica}
+		{Observatório do Valongo}
+        {2023-\faUndo}
+        {Voluntária no projeto de iniciação científica de caracterização de pequenos corpos do Sistema Solar por meio de ocultações estelares sob orientação do professor Bruno Morgado.}
+        \vspace*{0.1cm}
+    \Experience
+        {\ColorHighlight}
+		{TV Valongo- Extencionista}
+		{Observatório do Valongo}
+        {2022-\faUndo}
+        {Projeto de extensão na área de divulgação de notícias astronômicas por meio de vídeos no Youtube. Todos os membros da equipe do projeto adiquirem experiência em criação de roteiros, pesquisa, gravação de vídeo, edição e divulgação científica.}
+
+        \vspace*{0.1cm}
+    \Experience
+        {\ColorHighlight}
+		{Professora de Inglês}
+		{Cidadão Pró-Mundo}
+        {2021}
+        {Projeto voluntário de 6 meses na ONG Cidadão Pró-Mundo. Ensino de inglês para uma turma de 14 alunos de nível intermediário e monitoria de 2 alunas.}
+        \vspace*{0.1cm}
+    \Experience
+        {\ColorHighlight}
+		{Climate Science Olympiad- Semifinalista}
+		{}
+        {2021}
+        {Semifinalista na Olimpíada de Ciências Climáticas (competição de nível internacional). Criação de propostas na Língua Inglesa para solução de problemas ambientais do mundo atual.}
+
+    \end{MainPart}
+
+
+    
+
+
+    
+
+\end{document}
